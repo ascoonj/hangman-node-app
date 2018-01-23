@@ -4,7 +4,7 @@ var Letter = function(letter) {
 
     this.show = false;
 
-    this.placeHolder = "-";
+    this.placeHolder = "- ";
 
 };
 
@@ -12,7 +12,7 @@ Letter.prototype.displayLetter = function() {
     if (!(this.show)) {
         return this.placeHolder;
     } else {
-        return this.letter;
+        return this.letter + " ";
     }
 };
 
