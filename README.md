@@ -7,4 +7,4 @@ The app uses the NPM package [Inquirer](https://www.npmjs.com/package/inquirer) 
 
 See a sample of the running app below:
 
-![Hangman Sample](hangman_sample.jpg)
+![Hangman Sample](hangman_sample.JPG)
