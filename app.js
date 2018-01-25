@@ -30,7 +30,7 @@ function startGame() {
 
 
     // Short introdutory message user, and request of input to confirm that user wants to play
-    console.log("Welcome to my Command Line Hangman Gamep. You'll guess things related to island life!");
+    console.log("Welcome to my Command Line Hangman Game. You'll guess things related to island life!");
 
     inquirer.prompt([{
         type: "confirm",
