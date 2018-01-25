@@ -26,6 +26,9 @@ Word.prototype.checkGuessedLetter = function (userGuess) {
         //console.log(element.letter);
         if (element.letter === userGuess) {
             element.show = true;
+            return true;
+        } else {
+            return false;
         }
     });
 };
@@ -46,7 +49,7 @@ Word.prototype.checkIfWordSolved = function () {
 
     function letterShowing(eachLetter) {
         return eachLetter.show;
-       // console.log(eachLetter.show);
+        // console.log(eachLetter.show);
     }
 
     this.solved = this.lettersOfWord.every(letterShowing);
